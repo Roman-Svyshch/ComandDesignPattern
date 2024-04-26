@@ -1,11 +1,12 @@
 package org.example.smartHomeControlSystem.recievers;
 
-import org.example.comandLightRemoteControl.RemoteControl;
+
+import org.example.smartHomeControlSystem.invoker.RemoteControllerSmartHome;
 
 public class AudioSystemReceivers {
     private String name;
 
-    private RemoteControl remoteControl;
+    private RemoteControllerSmartHome remoteControl;
 
     public AudioSystemReceivers(String name) {
         this.name = name;
